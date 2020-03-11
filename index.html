@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- link to Stylesheet goes here -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-- link to fontawesome fonts goes here -->
+    <link href="https://fonts.googleapis.com/css?family=Barlow:400,500|Cardo:400,400i,700&display=swap" rel="stylesheet"> 
+    <title>Jewel Hub</title>
+
+</head>
+<body>
+    <!-- I just recieved the feedback for my previous project
+    but i already have coded the following stuff, so in future coding i will
+    take care of the naming conventions (not keeping the names too long) -->
+    
+    <!-- Start of the header element -->
+    <header>
+        
+        <div class="wrapper">
+            <div class="logo-nav-flex-parent">
+                <div class="logo" id="home">
+                    <p><a href="#home">Jewel</a></p>
+                    <p><a href="#home">//Hub</a></p>
+                </div>
+                <nav>
+                    <ul class="menu-flex-parent">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#shop-section">Shop</a></li>
+                        <li><a href="#blog-section">Blog</a></li>
+                        <li><a href="#contact-section">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>   
+            <div class="main-heading-container">
+                <h1>Layering Collection</h1>
+                <p><a href="#home" class="look-of-button shop-now">Shop now</a></p>
+            </div>
+        </div>
+    </header>
+    <!-- End of the header element -->
+
+    <!-- Start of the main  -->
+    <main>
+        <section class="diamond-model-section" id="shop-section">
+            <div class="wrapper">     
+                <div class="flex-parent-diamond-model-section">
+                    <div class="image-container">
+                        <img src="./assets/model.jpg" alt="girl model for diamond">
+                    </div>
+                    <div class="empty"></div>
+                    <div class="diamond-model-section-side">
+                        <h2>Check out new arrivals</h2>
+                        <p>Pastels Céline leggings leather shorts Saint Laurent beanie street style Fjallraven. Motif skirt strong eyebrows Choupette printed jacket grunge white chambray shirt denim. Colette chunky sole loafers trouser surf pop Prada backpack washed out statement Bag 'N' Noun silver collar. Rope necklace oversized A.P.C. rose gold knitwear capsule Raf Simons.</p>
+                        <p><a href="#home" class="look-of-button shop-now">Shop now</a></p>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="sustainable-future-section" id="blog-section">
+            <div class="wrapper">
+                <div class="fp-sustainable-section">
+                    <div class="less-than">
+                        <p> < </p>
+                    </div>
+                    <div class="fp-middle-sustainable-section">
+                        <p>Latest blog posts</p>
+                        <!-- I used following div to put a border under the blog p tag -->
+                        <div class="hold-border"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+                        <h2>A sustainable future</h2>
+                        <p>Pastels Céline leggings leather shorts Saint street style Fjallraven. Motif skirt strong eyebrows washed out statement Bag 'N' Noun silver collar. Rope necklace oversized A.P.C. rose gold knitwear capsule Raf Simons.</p>
+                        <p><  ></p>
+                        <p><a href="#home" class="look-of-button learn-more">Learn more</a></p>
+                    </div>
+                    <div class="greater-than">
+                        <p> > </p>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="featured-items-section">
+            <div class="wrapper"> 
+                <h2>Featured items</h2>
+                <div class="flex-parent-featured-items">
+                    <div class="feature">
+                        <div class="image-container">
+                            <img src="./assets/chains.jpg" alt="hanging chains">
+                        </div>
+                        <div class="feature-description">
+                            <p>Dole chains & pendents</p>
+                            <p>$50</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="image-container">
+                            <img src="./assets/ring-model.jpg" alt="model with ring in the finger">
+                        </div>
+                        <div class="feature-description">
+                            <p>Made of steel ring</p>
+                            <p>$30</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="image-container">
+                            <img src="./assets/watch-model.jpg" alt="model with wrist watch">
+                        </div>
+                        <div class="feature-description">
+                            <p>Malvori watch</p>
+                            <p>$120</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="contact-us-section" id="contact-section">
+            <div class="wrapper">
+                <div class="fp-contact">
+                    <h2>Contact us</h2>
+                    <form action="" method="">
+                        <div class="name">
+                            <input type="text" name="name" id="name" placeholder="Name" required="required">
+                        </div>
+                        <div class="email">
+                            <input type="email" name="email" id="email" placeholder="Email" required="required">
+                        </div>
+                        <div class="message">
+                            <textarea name="message" id="message" cols="30" rows="7" minlength="10" maxlength="500" placeholder="Message" aria-describedby="msg-length" required></textarea>
+                            <p class="msg-length" id="msg-length">Please enter at least 10-500 characters...</p>
+                        </div>
+                        <div class="submit-div">
+                            <button type="submit" class="look-of-button submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>    
+        </section>
+    </main>
+    <!-- End of the main -->
+
+    <!-- Start of the footer -->
+    <footer>
+        <div class="wrapper">
+            <div class="logo">
+                    <p><a href="#home">Jewel</a></p>
+                    <p><a href="#home">//Hub</a></p>
+            </div>
+        </div>    
+    </footer>
+    <!-- End of the footer -->
+    <!-- start of jQuery coding -->
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js' integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous'></script>
+    <script src="    https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+    <script>
+        $(function(){
+            $('a').smoothScroll();
+        });
+    </script>
+    <!-- End of jQuery coding -->
+</body>
+</html>

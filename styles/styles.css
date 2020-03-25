@@ -205,7 +205,7 @@ header nav{
 .diamond-model-section .shop-now:hover{ color:#fff; }
 /* sustainable future section styles */
 .sustainable-future-section{
-    background-image:url("../assets/banner-image.jpg");
+    background-image:url("../Assets/banner-image.jpg");
     color:#fff;
     padding:80px 0 100px 0;
 }
